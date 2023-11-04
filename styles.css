@@ -1,3 +1,95 @@
+.shahbaz {
+  width: 1440px;
+  height: 352px;
+  background-color: #ffdd78;
+  display: flex;
+}
+.shahbaz .left {
+  width: 48%;
+}
+.shahbaz .left p {
+  margin-top: 79px;
+  padding-left: 135px;
+  margin-bottom: 0%;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  /* 150% */
+  letter-spacing: 4.8px;
+  text-transform: uppercase;
+}
+.shahbaz .left h3 {
+  padding-left: 135px;
+  margin-top: 21px;
+  font-family: DM Serif Display;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 400px;
+  line-height: 64px;
+}
+.shahbaz .right {
+  width: 48%;
+  margin-top: 160px;
+}
+.shahbaz .right #search {
+  width: 370px;
+  height: 48px;
+  border-radius: 5px;
+  border: 1px solid #DADADA;
+  background: #FFF;
+}
+.shahbaz .right button {
+  width: 170px;
+  height: 48px;
+  border-radius: 5px;
+  background-color: #434CCC;
+  color: white;
+  border: none;
+  margin-left: 30px;
+}
+
+@media all and (max-width: 480px) {
+  .shahbaz {
+    width: 480px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+  }
+  .shahbaz .left {
+    margin-left: 10px;
+    margin-top: 0%;
+  }
+  .shahbaz .left p {
+    padding-left: 0%;
+    margin-top: 60px;
+    font-weight: 400px;
+  }
+  .shahbaz .left h3 {
+    width: 209px;
+    height: 144px;
+    padding-left: 0px;
+    line-height: 48px;
+    font-size: 40px;
+    margin-bottom: 0px;
+  }
+  .shahbaz .right {
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .shahbaz .right #search {
+    width: 330px;
+    height: 60px;
+  }
+  .shahbaz .right button {
+    margin-top: 20px;
+    width: 170px;
+    height: 48px;
+    margin-left: 0px;
+  }
+}
 body {
   margin: 0;
   padding: 0;
